@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.hero {
+  height: 70vh !important;
+  width: 100vw !important;
+  background-position: center;
+  background-size: cover;
+  background-image: url("Assets/pexels-ella-olsson-1640773.jpg");
+  filter: grayscale(50%);
+  background-attachment: fixed !important;
+}
+
+#cards-menu {
+  width: 100vw !important;
+}
+#thumbImage {
+  border-radius: 45px !important;
+  transition: 1s !important;
+}
+#thumbImage:hover {
+  height: 215px !important;
+  transition: 1s !important;
+}
+.card {
+  background-color: khaki !important;
+}
+@media screen and (min-width: 200px) and (max-width: 700px) {
+  .cards {
+    margin-left: 75px !important;
+  }
+  .header-image {
+    width: 75px !important;
+  }
+  #dropdown {
+    width: 275px !important;
+  }
+  #search {
+    width: 100px !important;
+  }
+  #form {
+    width: 400px !important;
+  }
+  #login {
+    width: 375px !important;
+  }
+  #hero-title {
+    font-size: 100px !important;
+  }
+  #search {
+    width: 250px !important;
+  }
+  #singleProduct {
+    display: flex !important;
+    flex-direction: column !important;
+    overflow-x: hidden;
+  }
+}
